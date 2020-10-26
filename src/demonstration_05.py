@@ -12,4 +12,9 @@ Examples:
 """
 def sort_by_length(lst):
     # Your code here
-
+    lst.sort()
+    #sort method defaults to sorting strings in alphabetical order
+    # that's now what we want in this case
+    return lst
+print(sort_by_length(["a", "ccc", "dddd", "bb"]))
+print(sort_by_length(["may", "april", "september", "august"]))

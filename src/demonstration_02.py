@@ -8,7 +8,7 @@ Examples:
 - convert(3) ➞ 180
 - convert(2) ➞ 120
 """
-def convert(minutes: int) -> int:
+def convert(minutes: int):
     # Your code here
     #there are 60 seconds in a min
     # we need to take `minutes` & multiply by 60 in order to perform the conversion

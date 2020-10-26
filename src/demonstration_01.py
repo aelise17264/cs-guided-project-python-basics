@@ -8,7 +8,7 @@ Examples:
 - addition(-3, -6) ➞ -9
 - addition(7, 3) ➞ 10
 """
-def addition(a: int, b: int) -> int: #we can anotate input params w/ types
+def addition(a: int, b: int): #we can anotate input params w/ types
     # Your code here
     #given 2 ints as input
     # we want to add them together `+`

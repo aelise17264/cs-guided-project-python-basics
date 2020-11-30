@@ -14,4 +14,12 @@ Notes:
 """
 def mapping(letters):
     # Your code here
+    myDict = dict()
+    for index, value in enumerate(letters):
+        upperCase = value.upper()
+        myDict[value] = upperCase
+    return myDict
+
+
+print(mapping(["p", "s"]))
 

@@ -13,6 +13,12 @@ Notes:
 "75%" to 12 would be 9 as opposed to taking off 75% (making 3)).
 - There won't be any awkward decimal numbers, only 0.5 to deal with.
 """
-def mapping(letters):
-    # Your code here
+# def mapping(letters):
+#     # Your code here
 
+def get_discounts(nums, discount):
+    discount = float(discount.strip('%'))/100
+    newNums = [i * discount for i in nums]
+    return newNums
+
+print(get_discounts([2, 4, 6, 11], "50%"))
